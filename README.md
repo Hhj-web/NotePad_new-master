@@ -14,15 +14,11 @@
 
 效果:
 
-![28e14db4619b94dff265f47c64d8026f](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/28e14db4619b94dff265f47c64d8026f.png)
-
-
-
+![1.png](images%2F1.png)
 修改hello3:
 
-![30194d3ba56eddb4bcd082027800d61a](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/30194d3ba56eddb4bcd082027800d61a.png)
 
-
+![2.png](images%2F2.png)
 
 1.在NoteList类的PROJECTION中定义显示时间戳:
 
@@ -100,8 +96,9 @@ values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, Time);
 
 效果:
 
-![f507d800d8af964ac3f5b1da4d968bab](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/f507d800d8af964ac3f5b1da4d968bab.png)![a595ca63da650679c34593d067ba2d45](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/a595ca63da650679c34593d067ba2d45.png)
-
+![3.png](images%2F3.png)
+![4.png](images%2F4.png)
+![5.png](images%2F5.png)
 1.添加菜单文件中的搜索图标:
 
 ```
@@ -233,12 +230,9 @@ public class NoteSearch extends ListActivity implements SearchView.OnQueryTextLi
 
 ## 四、笔记导出：
 
-![0201a31b8dc4f72de15d3ca37f50b6dc](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/0201a31b8dc4f72de15d3ca37f50b6dc.png)
-
-![d7486de1d58545e46d021d2d1e56bd4a](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/d7486de1d58545e46d021d2d1e56bd4a.png)
-
-![1f67f7f46db8279143714f9d2064b571](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/1f67f7f46db8279143714f9d2064b571.png)
-
+![6.png](images%2F6.png)
+![7.png](images%2F7.png)
+![8.png](images%2F8.png)
 1.添加导出按钮
 
 ```
@@ -382,15 +376,13 @@ public class TextOutputActivity extends Activity {
 ```
 
 ## 五 、笔记排序：
-
+![9.png](images%2F9.png)
 按创建时间排序:
-
-![22a13a0aa366a4fa77284d67f30035f7](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/22a13a0aa366a4fa77284d67f30035f7.png)
+![10.png](images%2F10.png)
 
 按修改时间排序:
-
-![972bc8ec1e6bf5e7535023326f35e999](file:///C:/Users/%E9%BB%84%E6%B5%A9%E4%BD%B3/Documents/Tencent%20Files/1477647740/nt_qq/nt_data/Pic/2024-11/Ori/972bc8ec1e6bf5e7535023326f35e999.png)
-
+![11.png](images%2F11.png)
+![12.png](images%2F12.png)
 1.添加菜单选项:
 
 ```
