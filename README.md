@@ -96,6 +96,7 @@ values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, Time);
 ![3.png](images%2F3.png)
 ![4.png](images%2F4.png)
 ![5.png](images%2F5.png)
+
 1.:为了提升用户界面的直观性和易用性，我计划在菜单配置文件中添加一个搜索功能的图标。这样，用户可以通过点击这个图标来快速启动搜索功能，从而更方便地查找和定位所需的笔记或信息。这一设计旨在优化用户体验，提高应用的交互性和便捷性。
 
 ```
@@ -151,7 +152,7 @@ case R.id.menu_search:
 </LinearLayout>
 ```
 
-4.新建NoteSearch类:
+4. 新建NoteSearch类:
 
 ```
 
@@ -373,13 +374,18 @@ public class TextOutputActivity extends Activity {
 ```
 
 ## 五 、笔记排序：
+
 ![9.png](images%2F9.png)
+
 按创建时间排序:
+
 ![10.png](images%2F10.png)
 
 按修改时间排序:
+
 ![11.png](images%2F11.png)
 ![12.png](images%2F12.png)
+
 1.为了丰富应用的用户界面并提升用户体验，我计划在应用的菜单中添加一些新的选项。这些选项将为用户提供更多样的功能和操作选择，使他们能够更便捷地完成各项任务。通过精心设计和布局，我将致力于打造一个直观、易用且功能丰富的菜单界面:
 
 ```
@@ -394,7 +400,9 @@ public class TextOutputActivity extends Activity {
 2.为了增强notesList的用户交互性，我计划在notesList的菜单中添加几个新的响应选项（即菜单case）。这些选项将为用户提供额外的操作选择，使他们能够更灵活地管理笔记列表。通过实现这些菜单case，我将确保notesList的用户界面既直观又功能丰富，从而满足用户的多样化需求:
 
 ```
+
 //创建时间排序
+
 case R.id.menu_sort1:
      cursor = managedQuery(
             getIntent().getData(),
@@ -412,7 +420,9 @@ case R.id.menu_sort1:
     );
     setListAdapter(adapter);
     return true;
+
 //修改时间排序
+
 case R.id.menu_sort2:
     cursor = managedQuery(
             getIntent().getData(),
