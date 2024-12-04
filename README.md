@@ -231,6 +231,9 @@ public class NoteSearch extends ListActivity implements SearchView.OnQueryTextLi
 ![6.png](images%2F6.png)
 ![7.png](images%2F7.png)
 ![8.png](images%2F8.png)
+
+![e4a34ef0c32d9618a8e32896d3c06240](https://github.com/user-attachments/assets/5a7f30c8-dc0f-4ef3-9ade-91c65f0ec4d8)
+
 1.添加导出按钮
 
 ```
